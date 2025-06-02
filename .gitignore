@@ -1,0 +1,97 @@
+## .gitignore для C# и .NET проектов
+
+# Игнорировать выходные директории сборки
+[Bb]in/
+[Oo]bj/
+
+# Файлы пользовательских настроек и кэша IDE
+*.user
+*.suo
+*.userprefs
+*.vspscc
+*.vssscc
+.vs/
+.idea/
+
+# Результаты тестирования
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Файлы пакетов NuGet
+*.nupkg
+[Nn]u[Pp]kg/
+packages/
+
+# Резервные копии и временные файлы
+*.bak
+*.tmp
+*.swp
+
+# Файлы Rider
+*.sln.iml
+
+# Файлы MSBuild
+*.log
+*.msbuild
+
+# Файлы Resharper
+_ReSharper*/
+*.ReSharper
+
+# Файлы Coverage
+coverage.*
+*.coverage
+*.coveragexml
+
+# Файлы DotCover
+*.dotCover
+
+# Временные файлы Visual Studio
+*.cache
+*.ilk
+*.pdb
+*.meta
+
+# Файлы публикации
+pubxml
+*.pubxml
+PublishProfiles/
+
+# Файлы пакетов Azure
+*.azurepubxml
+
+# Файлы StyleCop
+StyleCop.Cache
+
+# Файлы NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Файлы OpenCover
+opencover*.xml
+
+# Файлы пакетов Cake
+tools/
+!tools/packages.config
+
+# Файлы локальной разработки
+.localhistory/
+
+# Файлы манифеста ClickOnce
+*.application
+*.manifest
+*.deploy
+*.xap
+
+# Файлы SQL Server
+*.mdf
+*.ldf
+
+# Файлы бизнес-интеллекта
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# Файлы Python
+__pycache__/
+*.pyc

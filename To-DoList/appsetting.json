@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Database=dbToDoList;Username=postgres;Password=567891234;"
+  }
+}
